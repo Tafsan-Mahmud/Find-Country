@@ -1,0 +1,58 @@
+#special-country .display_box{
+    height: 660px;
+}
+.display_box{
+    width: 270px;
+    height: 555px;
+    margin: 20px 8px;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+
+}
+.content{
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+.flags{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.flags img{
+    width: 100%;
+    border-radius: 5px;
+}
+.text_area{
+    padding: 2px 15px;
+    letter-spacing: .6px;
+}
+#map_btn{
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+    padding: 5px 0;
+    text-align: center;
+    background: #0f9521;
+    letter-spacing: .6px;
+    font-weight: 600;
+    font-size: 19px;
+    color: #ebebeb;
+    text-decoration: none;
+    transition: .3s;
+}
+#map_btn:hover{
+    background: #0d7c1c;
+}
+.text-info1{
+    color: #c40000;
+}
+.text-info2{
+    color: #970000;
+}
+.text-info-other{
+    color: #131313;
+    font-size: 17px;
+    font-weight: 500;
+}

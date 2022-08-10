@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.main_section {
+    width: 100%;
+    min-height: 100vh;
+    background: #c4ebe7;
+}
+.Heading_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content .Heading_input h1 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #100e0e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_btn {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 17px 60px gray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input_btn input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #119122;
+    padding: 15px;
+    font-size: 17px;
+    background: #d6e4e3;
+    color: #100e0e;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.input_btn button {
+    outline: none;
+    border: none;
+    background: #119122;
+    color: #e7faf8;
+    padding: 15.8px;
+    letter-spacing: .7px;
+    font-size: 19px;
+    font-weight: 500;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: .3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search_btn:hover {
+    background: #0c7d1b;
+}
+
+.disply_country {
+    width: 100%;
+    min-height: 60vh;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner p {
+    color: #100e0e;
+    letter-spacing: 1px;
 }
