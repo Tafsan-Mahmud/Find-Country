@@ -81,3 +81,29 @@
     color: #100e0e;
     letter-spacing: 1px;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    .content .Heading_input h1 {
+        font-size: 35px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .input_btn {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .input_btn {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .input_btn {
+        width: 80%;
+    }
+    .content .Heading_input h1 {
+        font-size: 20px;
+    }
+}
